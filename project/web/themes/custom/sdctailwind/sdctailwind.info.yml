@@ -1,0 +1,22 @@
+name: sdctailwind
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - sdctailwind/base
+  - sdctailwind/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - sdctailwind/user
+  core/drupal.dropbutton:
+    - sdctailwind/dropbutton
+  core/drupal.dialog:
+    - sdctailwind/dialog
+  file/drupal.file:
+    - sdctailwind/file
+  core/drupal.progress:
+    - sdctailwind/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.2.6'
